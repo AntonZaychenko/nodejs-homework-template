@@ -21,5 +21,5 @@ router.patch(
     validation(schemas.favoriteSchema),
     ctrlWrapper(ctrl.patch)
 );
-console.log(123)
+
 module.exports = router;
